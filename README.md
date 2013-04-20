@@ -1,0 +1,4 @@
+Slideshow
+=========
+
+WordPress plugin
