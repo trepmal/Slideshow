@@ -11,3 +11,21 @@ To Do
  - front-end template tag
  - fix lingering 'gallery' refernces
  - styles for meta box
+
+
+```
+has_slideshow( $id );
+```
+*$id* post id
+
+```
+slideshow( $id, $size );
+```
+*$id* post id
+*$size* image size
+
+```
+get_slideshow( $id, $size );
+```
+*$id* post id
+*$size* image size
