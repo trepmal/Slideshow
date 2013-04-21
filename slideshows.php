@@ -108,12 +108,3 @@ function get_slideshow( $id=false, $size='thumbnail' ) {
 		return $html;
 		echo '<div class="slides-container">'. $html .'</div>';
 }
-
-add_action('wp_footer', function() {
-	// var_dump( has_slideshow( get_the_ID() ) );
-	if ( has_slideshow( get_the_ID() ) )
-		slideshow( get_the_ID(), 'large' );
-	else {
-		echo '<h1 style="color:black;background:white;">nope</h1>';
-	}
-});

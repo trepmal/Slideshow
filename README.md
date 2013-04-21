@@ -8,7 +8,6 @@ No front-end output yet.
 
 To Do
 -----
- - front-end template tag
  - fix lingering 'gallery' refernces
  - styles for meta box
 
