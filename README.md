@@ -21,11 +21,11 @@ has_slideshow( $id );
 ```
 slideshow( $id, $size );
 ```
-*$id* post id
+*$id* post id  
 *$size* image size
 
 ```
 get_slideshow( $id, $size );
 ```
-*$id* post id
+*$id* post id  
 *$size* image size
